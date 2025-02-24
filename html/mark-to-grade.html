@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/mark-to-grade.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="mark-to-grade.html">Mark to Grade</a></li>
+                <li><a href="staff.html">Staff List</a></li>
+                <li><a href="weather.html">Weather Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Mark to Grade Converter</h1>
+        <label for="mark_input">Enter your mark (0-100):</label>
+        <input type="text" id="mark_input" placeholder="Enter mark here">
+        <button onclick="markToGrade()">Convert to Grade</button>
+
+        <p id="validation_message"></p>
+        <p id="grade_result"></p>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> AH-BVC All rights reserved.</p>
+    </footer>
+</body>
+</html>
