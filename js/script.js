@@ -7,9 +7,6 @@
 // I'm not sure if I need this anywhere else, but I put it here anyway!
 
 document.addEventListener('DOMContentLoaded', () => {
-    const year_element = document.getElementById('year');
-    year_element.textContent = new Date().getFullYear();
-
     // Make the name of the picture (doesn't really have one lol) appear after 10 seconds
     setTimeout(() => {
         const caption = document.getElementById('image_caption');

@@ -1,7 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const year_element = document.getElementById('year');
-    year_element.textContent = new Date().getFullYear();
-
     document.getElementById('convert_button').addEventListener('click', function () {
         const temp_input = parseFloat(document.getElementById('temp_input').value);
         const unit = document.getElementById('unit_select').value;
